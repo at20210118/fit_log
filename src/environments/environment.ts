@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDkc-9dmLqJuw6WyNuug9kfWKyps8p98gE",
+    authDomain: "fitlog-bd883.firebaseapp.com",
+    projectId: "fitlog-bd883",
+    storageBucket: "fitlog-bd883.firebasestorage.app",
+    messagingSenderId: "52982914868",
+    appId: "1:52982914868:web:3fe925eb30a2446f6e8f61"
+  }
 };
 
 /*
